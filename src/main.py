@@ -3,7 +3,8 @@ def greet(name: str) -> str:
 
 
 def farewell(name: str) -> str:
-    return f"Goodbye, {name}!"
+    bye: str = "See you later!"
+    return f"{bye}, {name}!"
 
 
 if __name__ == "__main__":
