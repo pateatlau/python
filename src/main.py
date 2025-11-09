@@ -7,7 +7,6 @@ def farewell(name: str) -> str:
     return f"{bye}, {name}!"
 
 
-# This is a useless comment
 if __name__ == "__main__":
     print(greet("Python"))
     print(farewell("Python"))
